@@ -4,7 +4,7 @@
     ＋
     <input type="text" value="num2" v-model.number="num2" />
     =
-    {{ total() }}
+    {{ total }}
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default class XXXComponent extends Vue {
   private num1 = 0;
   private num2 = 0;
 
-  total(): number {
+  get total(): number {
     return this.num1 + this.num2;
   }
 }
