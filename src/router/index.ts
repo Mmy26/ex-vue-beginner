@@ -21,9 +21,12 @@ const routes: Array<RouteConfig> = [
   },
   {
     path: "/Ex01",
-    
-    component: () =>
-      import( "../views/Ex01.vue"),
+
+    component: () => import("../views/Ex01.vue"),
+  },
+  {
+    path: "/Ex02",
+    component: () => import("../views/Ex02.vue"),
   },
 ];
 

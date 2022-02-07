@@ -25,5 +25,6 @@ export default class XXXComponent extends Vue {
 <style scoped>
 div {
   text-align: left;
+  border: solid;
 }
 </style>
